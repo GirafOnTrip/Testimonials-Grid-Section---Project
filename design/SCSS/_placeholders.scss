@@ -1,0 +1,54 @@
+// FLEX-BOX
+
+%flex-center {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+// BOX PARAMATERS
+
+%box-param0{
+    
+    border-radius: 0.5rem;
+    box-shadow: 11px 20px 22px -4px rgba(132,132,132,0.32);
+    
+    h2{
+        margin-top: 1.125rem;
+        font-weight: 400;
+        opacity: 80%;
+    }
+}
+
+%box-param1{
+    
+    padding: 1.625rem 2rem 2rem 2rem;
+    
+    h2{
+        margin-bottom: 1rem; 
+    }
+}
+
+%box-param2{
+    
+    padding: 1.625rem 2rem;
+    
+    h2{
+        margin-bottom: 1.5rem; 
+    }
+}
+
+// PROFIL PARAMATERS
+
+%profil-size{
+    
+    a{
+        display: block;
+        line-height: 1;
+        text-decoration: none;
+        color:$txt-color-white;
+    }
+}

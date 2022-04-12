@@ -1,0 +1,16 @@
+// Img Quote absolute + position
+
+@mixin absolute-img ($left, $top) {
+
+    position: absolute;
+    left:$left;
+    top:$top
+}
+
+// Avatar Border
+
+@mixin border ($color) {
+
+    width: 2rem;
+    border: 0.125rem solid $color;
+}
